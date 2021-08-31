@@ -1,0 +1,28 @@
+% Instructions for MissStereo build
+
+# PRELIMINARIES
+
+The build system relies on CMake for platform specific Makefile generation.
+You can install it from http://www.cmake.org/
+
+The following instructions apply to Linux build.
+
+# FOR THE IMPATIENT
+
+Build:
+$ mkdir BuildMissStereo && cd BuildMissStereo
+$ cmake -D CMAKE_BUILD_TYPE:string=Release /path_to_MissStereo/src
+$ make -j 2
+
+Test:
+$ export MISS_STEREO_PATH=/path_to_BuildMissStereo/bin
+$ /path_to_MissStereo/scripts/Test.sh
+
+Run:
+$ mkdir Experiment && cd Experiment
+$ export MISS_STEREO_PATH=/path_to_BuildMissStereo/bin
+$ /path_to_MissStereo/scripts/MissStereo.sh /path_to_img1.png /path_to_img2.png
+
+# COMPLETE INSTRUCTIONS
+
+See file doc/userguide.pdf for complete instructions.

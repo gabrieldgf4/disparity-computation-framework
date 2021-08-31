@@ -1,0 +1,18 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+
+PROJECT(density)
+
+SET(SRC density.cpp)
+
+ADD_EXECUTABLE(density ${SRC})
+
+INCLUDE_DIRECTORIES(..)
+
+IF(UNIX)
+    SET_TARGET_PROPERTIES(density PROPERTIES
+                          COMPILE_FLAGS "-Wall -Wextra -Werror")
+ENDIF(UNIX)
+
+TARGET_LINK_LIBRARIES(density IO)
+
+INSTALL(FILES CMakeLists.txt ${SRC} DESTINATION src/density)
