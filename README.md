@@ -10,7 +10,7 @@ If you use this project, cite:
 
     @article{gabriel,
     Author = Author={Vieira, Gabriel and 
-              Júnio César and 
+              Júnio Cesar and 
               Naiane Sousa and 
               Soares, Fabrizzio
               },
