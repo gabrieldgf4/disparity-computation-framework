@@ -27,7 +27,9 @@ If you use this project, cite:
     }
  
 
-![alt tag](https://user-images.githubusercontent.com/63321757/131589365-34b5d897-9ba5-4c2f-8e5f-6b862c920da4.png)
+<!--- ![alt tag](https://user-images.githubusercontent.com/63321757/131589365-34b5d897-9ba5-4c2f-8e5f-6b862c920da4.png) --->
+
+<img src="https://user-images.githubusercontent.com/63321757/131589365-34b5d897-9ba5-4c2f-8e5f-6b862c920da4.png" width=75% height=75%>
 
 # Code
 
@@ -40,9 +42,11 @@ You can download the code by:
 
     Examples of how to run the program can be found in DCF/test.
 
-    The files test1.m to test10.m show different uses of the program. For example, when the test4.m file is run, the following response can be obtained:
+    The files test1.m to test10.m show different uses of the program. 
+    
+    For example, when the test4.m file is run, the following response can be obtained:
 
-    <img src="https://user-images.githubusercontent.com/63321757/200068538-e1e1526a-fdd7-45b2-aa70-d8a1c5806ba5.png" width=75% height=75%>
+<img src="https://user-images.githubusercontent.com/63321757/200068538-e1e1526a-fdd7-45b2-aa70-d8a1c5806ba5.png" width=75% height=75%>
 
 # Authors and Contributors
 
